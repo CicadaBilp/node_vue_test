@@ -1,20 +1,20 @@
 {
-	"config_name" : "develop",
+	"config_name" : "prod",
 	"jwt_config" : {
 		"secretKey":"itcast",
 		"expiresIn":86400
 	},
 	"upload_config":{
-		"baseURL":"http://47.96.21.88:8888",//
+		"baseURL":"http://47.96.21.88:8888",
 		"upload_ueditor":"uploads/ueditor",
 		"simple_upload_redirect":"http://47.96.21.88/reload"
 	},
 	"db_config" : {
 		"protocol" : "mysql",
-		"host" : "localhost",
+		"host" : "59.110.220.84",
 		"database" : "shop_admin",
 		"user" : "root",
-		"password" : "root",
+		"password" : "123456",
 		"port" : 3306
 	}
 }
